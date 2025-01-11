@@ -4,7 +4,7 @@
 }
 
 .carousel-item {
-  margin-top: 10px;
+
   width: 100%;
 }
 
@@ -13,6 +13,7 @@
 }
 
 .footer {
+  
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -20,10 +21,15 @@
 }
 
 .footer img {
+  margin-top: 10px;
   transition: filter 1s ease-in;
   &:hover {
     filter: drop-shadow(16px 16px 10px black);
   }
   padding: 15px;
   width: 100px;
+}
+
+.logo img{
+  width: 85px;
 }
