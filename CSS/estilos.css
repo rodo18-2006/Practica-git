@@ -4,10 +4,26 @@ padding: 0;
 }
 
 .carousel-item{
+  margin-top: 10px;
   width: 100%;
 }
 
 .carousel-item img{
   height: 500px;
+ 
+}
+
+.footer{
+  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  
+}
+
+.footer img{
+  padding: 15px;
+  width: 100px;
  
 }
