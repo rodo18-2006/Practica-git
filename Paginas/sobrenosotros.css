@@ -4,7 +4,6 @@
 }
 
 .carousel-item {
-
   width: 100%;
 }
 
@@ -13,7 +12,6 @@
 }
 
 .footer {
-  
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -30,11 +28,10 @@
   width: 100px;
 }
 
-.logo img{
- animation: logo 5s linear alternate   infinite;  
+.logo img {
+  animation: logo 5s linear alternate infinite;
   width: 85px;
 }
-
 
 @keyframes logo {
   0% {
@@ -62,5 +59,4 @@
   100% {
     transform: rotateY(360deg);
   }
-
 }
