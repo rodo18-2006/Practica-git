@@ -20,6 +20,10 @@
 }
 
 .footer img {
+  transition: filter 1s ease-in;
+  &:hover {
+    filter: drop-shadow(16px 16px 10px black);
+  }
   padding: 15px;
   width: 100px;
 }
