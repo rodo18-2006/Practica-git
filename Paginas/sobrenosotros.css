@@ -1,6 +1,9 @@
 * {
-  margin: o;
+  margin: 0;
+
   padding: 0;
+
+  box-sizing: border-box;
 }
 
 .carousel-item {
@@ -13,23 +16,31 @@
 
 .footer {
   position: absolute;
+
   bottom: 0;
+
   width: 100%;
+
   height: 150px;
 }
 
 .footer img {
   margin-top: 10px;
+
   transition: filter 1s ease-in;
+
   &:hover {
     filter: drop-shadow(16px 16px 10px black);
   }
+
   padding: 15px;
+
   width: 100px;
 }
 
 .logo img {
   animation: logo 5s linear alternate infinite;
+
   width: 85px;
 }
 
@@ -41,68 +52,158 @@
   10% {
     transform: rotateY(50deg);
   }
+
   30% {
     transform: rotateY(100deg);
   }
+
   50% {
     transform: rotateY(150deg);
   }
+
   70% {
     transform: rotateY(200deg);
   }
+
   80% {
     transform: rotateY(250deg);
   }
+
   90% {
     transform: rotateY(300deg);
   }
+
   100% {
     transform: rotateY(360deg);
   }
 }
 
-.accordion{
+.accordion {
   margin: 10px;
-width: 90%;
-position: relative;
-left: 55px;
-border: solid #CFE2FF ;
+
+  width: 90%;
+
+  position: relative;
+
+  left: 55px;
+
+  border: solid #cfe2ff;
 }
 
-.accordion-collapse{
+.accordion-collapse {
   width: 100%;
 }
 
-.accordion-collapse img{
-  width: 100%;
-  height: 500px;
-}
-
-.accordion-body{
-  width: 100%;
-}
-
-.accordion-body img{
+.accordion-collapse img {
   width: 100%;
 
   height: 500px;
 }
 
+.accordion-body {
+  width: 100%;
+}
+
+.accordion-body img {
+  width: 100%;
+
+  height: 500px;
+}
 
 .footer {
-  
-  position: absolute;
+  position: fixed;
+left: 0;
   bottom: 0;
+z-index: 1000;
   width: 100%;
+
   height: 150px;
 }
 
 .footer img {
   margin-top: 10px;
+
   transition: filter 1s ease-in;
+
   &:hover {
     filter: drop-shadow(16px 16px 10px black);
   }
+
   padding: 15px;
+
   width: 100px;
 }
+
+.Footer {
+  display: flex;
+  background-color: #75E1ED;
+  bottom: 0;
+  width: 100%;
+  height: 220px;
+  color: white;
+  margin-top: auto;
+}
+
+.Footer p {
+  font-size: 60px;
+  color: white;
+}
+
+.Footer p {
+  color: black;
+  margin: 25px;
+}
+
+.Footer li {
+  list-style: none;
+
+  margin: 50px;
+  transition: filter 1s;
+  &:hover {
+    filter: drop-shadow(10px 10px 5px);
+    color: black;
+  }
+}
+
+.Footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.mapa {
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+@media (max-width: 325px) {
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .Footer li {
+    font-size: 10px;
+  }
+
+  .Footer {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 325px) {
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .Footer li {
+    font-size: 10px;
+  }
+
+  .Footer {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+}
+
