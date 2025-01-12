@@ -73,6 +73,11 @@ border: solid #CFE2FF ;
   width: 100%;
 }
 
+.accordion-collapse img{
+  width: 100%;
+  height: 500px;
+}
+
 .accordion-body{
   width: 100%;
 }
