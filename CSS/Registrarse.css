@@ -3,6 +3,20 @@
   padding: 0;
 }
 
+
+.mb-3{
+  margin-top: 20px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.btn{
+  position: relative;
+  left: 25%;
+}
+
+
 .logo img {
   animation: logo 5s linear alternate infinite;
 
