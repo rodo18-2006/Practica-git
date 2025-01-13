@@ -100,3 +100,14 @@ footer {
     transform: rotateY(360deg);
   }
 }
+
+
+.carousel-inner{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.carousel img{
+  width: 100%;
+  height: 500px;
+}
