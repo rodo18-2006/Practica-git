@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.img-fluid{
+  width: 500px;
+}
+
+.titulo{
+  text-align: center;
+}
